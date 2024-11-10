@@ -4,19 +4,19 @@ import Button from './Button'
 function HeroSection() {
   return (
     
-    <div  className='flex flex-col m-0 pt-5 md:pt-20 md:mt-0 mb-10 md:mb-5 md:flex-row pl-10'>
-        <div className='md:m-10 lg:w-full lg:h-full  '>
+    <div  className='flex flex-col m-0 pt-5 md:pt-10 md:mt-0 mb-10 sm:flex-col md:mb-5 md:flex-col lg:flex-row pl-10'>
+        <div className='md:m-10 md:w-full md:h-full lg:w-full lg:h-full'>
 
         <Image src="/images/Erum_Logo.jpeg" alt="image" width="350" height="350"
-        className='col-span-5 place-self-center lg:w-[450px] lg:h-[450px] rounded-full  hover:scale-105 border-4 border-double border-pink-500 hover:shadow-[0_0_8px_6px_rgb(204,45,143)] '/>
+        className='m-auto col-span-5 place-self-center md:w-[450px] md:h-[450px] lg:w-[450px] lg:h-[450px] rounded-full  hover:scale-105 border-4 border-double border-pink-500 hover:shadow-[0_0_8px_6px_rgb(204,45,143)]'/>
   </div>
-  <div className='md:m-4 md:p-4' >
-        <h1 className='text-transparent bg-clip-text bg-gradient-to-r from-purple-500 via-pink-600 to-blue-500 font-semibold mb-3 mt-10 text-4xl md:text-4xl font-serif hover:animate-pulse '>Hi I am </h1> 
+  <div className='md:m-2 md:p-2' >
+        <h1 className='text-transparent bg-clip-text bg-gradient-to-r from-purple-500 via-pink-600 to-blue-500 font-semibold mb-3 mt-10 text-4xl md:text-4xl font-serif hover:animate-pulse'>Hi I am </h1> 
  
          
-    <span className='text-transparent bg-clip-text bg-gradient-to-l from-purple-500 via-pink-600 to-blue-500 font-semibold mb-3 mt-10 text-4xl md:text-6xl font-serif hover:animate-pulse '> ERUM WARIS</span>
+    <span className='text-transparent bg-clip-text bg-gradient-to-l from-purple-500 via-pink-600 to-blue-500 font-semibold mb-3 mt-10 text-4xl md:text-6xl font-serif hover:animate-pulse'> ERUM WARIS</span>
         <br />
-        <h2 className=" text-transparent bg-clip-text bg-gradient-to-r from-blue-500 via-pink-600 to-purple-500 font-semibold mt-6 md:mt-5 text-2xl md:text-4xl font-serif hover:animate-bounce ">I am a Passionate Learner As a Next js enthusiast I focus on fast scalable and efficient websites</h2>
+        <h2 className=" text-transparent bg-clip-text bg-gradient-to-r from-blue-500 via-pink-600 to-purple-500 font-semibold mt-6 md:mt-5 text-2xl md:text-4xl font-serif hover:animate-bounce">I am a Passionate Learner As a Next js enthusiast I focus on fast scalable and efficient websites</h2>
 
         <Button text="Hire Me" />
         </div>

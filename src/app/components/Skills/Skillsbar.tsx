@@ -23,8 +23,8 @@ export const SkillsBar: React.FC = () => {
                     <span className='text-lg md:text-xl font-medium'>{skill.title}</span>
                     <span className='text-lg md:text-xl  font-medium'>{skill.level}%</span>
                 </div>
-                <div className="w-full bg-green-300 rounded-full h-4">
-                    <div className='bg-gradient-to-r from-purple-500 via-pink-500 to-cyan-400 h-4 rounded-full' style={{width: `${skill.level}%` }}>
+                <div className="w-full bg-green-300 rounded-full h-[.75rem]">
+                    <div className='bg-gradient-to-r from-purple-500 via-pink-500 to-cyan-400 h-[.75rem] rounded-full' style={{width: `${skill.level}%` }}>
 
                     </div>
                 </div>
