@@ -71,7 +71,7 @@ const projects = [
 const Project: React.FC = () => {
   return (
     <div className="container mx-auto mb-8 p-8">
-      <h2 className="lg:text-4xl md:text-4xl text-3xl  font-bold text-center mb-24 text-white">
+      <h2 className="lg:text-4xl md:text-4xl text-3xl  font-bold text-center mb-24 text-blue-300">
         My{" "}
         <span className="text-transparent bg-clip-text bg-gradient-to-br from-purple-500 via-pink-500 to-blue-400 font-serif lg:text-5xl md:text-5xl text-4xl">
           Projects
